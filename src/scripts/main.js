@@ -20,3 +20,13 @@ canvasElement.addEventListener("click", (event) => {
   const ball = new Ball(x, y, radius, dx, dy, color);
   canvas.addBall(ball);
 });
+
+const animate = () => {
+  canvas.clear();
+  canvas.drawBalls();
+  canvas.updateBalls();
+
+  requestAnimationFrame(animate);
+};
+
+animate();
