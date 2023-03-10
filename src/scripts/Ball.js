@@ -25,7 +25,17 @@ class Ball {
     } else {
       this.dy += 1;
     }
+    this.slowDownBalls();
     this.x += this.dx;
     this.y += this.dy;
+  };
+
+  slowDownBalls = () => {
+    if (this.dx !== 0) {
+      this.dx *= 0.995; // reduce horizontal speed by 1% per frame
+    }
+    if (this.dy !== 0) {
+      this.dy *= 0.995; // reduce vertical speed by 1% per frame
+    }
   };
 }
