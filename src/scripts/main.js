@@ -1,5 +1,7 @@
 const canvasElement = document.getElementById("canvas");
 const canvas = new Canvas(canvasElement);
+let ballCount = 0;
+const counterElement = document.getElementById("counter");
 
 const getRandomNumber = (min, max) => Math.random() * (max - min) + min;
 
@@ -16,6 +18,8 @@ canvasElement.addEventListener("click", (event) => {
 
   const ball = new Ball(x, y, radius, dx, dy, color);
   canvas.addBall(ball);
+  ballCount++;
+  counterElement.innerHTML = ballCount;
 });
 
 const animate = () => {

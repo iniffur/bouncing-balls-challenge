@@ -32,10 +32,10 @@ class Ball {
 
   slowDownBalls = () => {
     if (this.dx !== 0) {
-      this.dx *= 0.995; // reduce horizontal speed by 1% per frame
+      this.dx *= 0.995;
     }
     if (this.dy !== 0) {
-      this.dy *= 0.995; // reduce vertical speed by 1% per frame
+      this.dy *= 0.995;
     }
   };
 }
