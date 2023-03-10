@@ -29,5 +29,3 @@ class Ball {
     this.y += this.dy;
   };
 }
-
-module.exports = Ball;

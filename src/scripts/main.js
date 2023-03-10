@@ -1,6 +1,3 @@
-const Ball = require("./Ball");
-const Canvas = require("./Canvas");
-
 const canvasElement = document.getElementById("canvas");
 const canvas = new Canvas(canvasElement);
 
