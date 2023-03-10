@@ -14,9 +14,13 @@ To clone this repo, run:
 #
 Open `index.html` in browser to play
 
-## Future improvements
+## Live Link
+
+https://startling-croquembouche-0843b9.netlify.app/
+
+## Future Improvements
 - Better styling
 - Add functionality for balls to bounce off of each other
 - Display the velocity of balls
 - Add functionality to click to remove a ball
-- Show counter for total number of balls at a time
+- Possible ammendments to gravity effects
