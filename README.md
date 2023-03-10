@@ -11,12 +11,16 @@
 To clone this repo, run:
 
 `git clone https://github.com/iniffur/bouncing-ball-challenge.git`
-#
+
 Open `index.html` in browser to play
 
 ## Live Link
 
 https://startling-croquembouche-0843b9.netlify.app/
+
+## Demo
+
+https://user-images.githubusercontent.com/34510364/224330019-eb1ba88b-cc74-4d20-8911-76b9f3d8160e.mp4
 
 ## Future Improvements
 - Better styling
